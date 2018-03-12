@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 8, 2018 9:30:03 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.hs.model.Donation" table="DONATION">
+        <id name="DON_ID" type="int">
+            <column name="DON_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="CUST_ID" type="int">
+            <column name="CUST_ID" />
+        </property>
+        <property name="ITEM_ID" type="int">
+            <column name="ITEM_ID" />
+        </property>
+        <property name="AMOUNT" type="int">
+            <column name="AMOUNT" />
+        </property>
+    </class>
+</hibernate-mapping>

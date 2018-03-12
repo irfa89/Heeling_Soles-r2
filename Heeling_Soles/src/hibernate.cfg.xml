@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="connection.useUnicode">true</property>
+  <property name="connection.characterEncoding">UTF-8</property>
+  <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="connection.url">hsinstance.clcn2ooxtuiy.us-east-2.rds.amazonaws.com</property>
+  <property name="connection.username">root</property>
+  <property name="connection.password">admin123</property>
+  <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="current_session_context_class">thread</property>
+  <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+  <property name="show_sql">true</property>
+  <mapping resource="com/hs/model/Donation.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>
