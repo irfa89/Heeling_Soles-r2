@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 17, 2018 4:08:37 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.hs.model.Sign_Up" table="SIGN_UP">
+        <id name="CUST_ID" type="int">
+            <column name="CUST_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="FNAME" type="java.lang.String">
+            <column name="FNAME" />
+        </property>
+        <property name="MNAME" type="java.lang.String">
+            <column name="MNAME" />
+        </property>
+        <property name="LNAME" type="java.lang.String">
+            <column name="LNAME" />
+        </property>
+        <property name="DOB" type="java.lang.String">
+            <column name="DOB" />
+        </property>
+        <property name="GENDER" type="java.lang.String">
+            <column name="GENDER" />
+        </property>
+        <property name="EMAIL_ID" type="java.lang.String">
+            <column name="EMAIL_ID" />
+        </property>
+        <property name="CONTACT" type="int">
+            <column name="CONTACT" />
+        </property>
+        <property name="ADDRS_L1" type="java.lang.String">
+            <column name="ADDRS_L1" />
+        </property>
+        <property name="ADDRS_L2" type="java.lang.String">
+            <column name="ADDRS_L2" />
+        </property>
+        <property name="STATE" type="java.lang.String">
+            <column name="STATE" />
+        </property>
+        <property name="CITY" type="java.lang.String">
+            <column name="CITY" />
+        </property>
+        <property name="ZIPCODE" type="java.lang.String">
+            <column name="ZIPCODE" />
+        </property>
+        <property name="COUNTRY" type="java.lang.String">
+            <column name="COUNTRY" />
+        </property>
+        <property name="IMAGE" type="java.lang.String">
+            <column name="IMAGE" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -6,13 +6,14 @@
   <property name="connection.useUnicode">true</property>
   <property name="connection.characterEncoding">UTF-8</property>
   <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-  <property name="connection.url">hsinstance.clcn2ooxtuiy.us-east-2.rds.amazonaws.com</property>
-  <property name="connection.username">****</property>
-  <property name="connection.password">****</property>
+  <property name="connection.url">jdbc:mysql://hsinstance.clcn2ooxtuiy.us-east-2.rds.amazonaws.com:3306/rds</property>
+  <property name="connection.username">root</property>
+  <property name="connection.password">admin123</property>
   <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
   <property name="current_session_context_class">thread</property>
   <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
   <property name="show_sql">true</property>
   <mapping resource="com/hs/model/Donation.hbm.xml"/>
+  <mapping resource="com/hs/model/Sign_Up.hbm.xml"/>
  </session-factory>
 </hibernate-configuration>

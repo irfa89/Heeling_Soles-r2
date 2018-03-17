@@ -11,11 +11,11 @@
 
     <package name="default" namespace="/" extends="struts-default">
 
-        <action name="donationAction" class="com.hs.actions.donationAction" >
-			<result name="success">/donationForm.jsp</result>
+		<action name="SignupAction" class="com.hs.actions.SignupAction" >
+			<result name="success">/SignupForm.jsp</result>
 		</action>
 		
-		<action name="saveDonation" class="com.hs.actions.saveDonation" >
+		<action name="SaveSignUp" class="com.hs.actions.SaveSignUp" >
 			<result name="success">/Success.jsp</result>
 		</action>
 

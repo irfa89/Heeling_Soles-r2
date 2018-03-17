@@ -8,7 +8,7 @@
 <html><title>Donation</title>
 <body style="{font-family:Segoe Print;text-align: center; }">
 <center>
-<s:form method="post" action="saveDonation.action">
+<s:form method="post" action="SaveDonation.action">
 <s:textfield label="Donation Id" name="CUST_ID"/>
 <s:textfield label="Customer Id" name="DON_ID"/>
 <s:textfield label="Item Id" name="ITEM_ID"/>
